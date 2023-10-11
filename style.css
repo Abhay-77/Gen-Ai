@@ -1,0 +1,76 @@
+#personal{
+    flex-direction: row;
+    font-size: medium;
+    color: transparent;
+    background: linear-gradient(90deg, rgba(26,17,187,1) 8%, rgba(177,139,39,1) 29%, rgba(198,78,74,1) 51%);
+    -webkit-background-clip: text;
+    
+}
+body{
+    color: aqua;
+    border-width: .3cm;
+    border-style: groove ;
+    border-top: 0cm;
+    border-bottom: 0cm;
+    background-color: rgb(0, 0, 0);
+    
+    padding-left: .25cm;
+    border-color: rgb(45, 112, 133);
+}
+#me{
+    margin: 1cm;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(95,88,212,1) 8%, rgba(187,65,147,1) 31%, rgba(0,212,255,1) 53%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all .2s ease-in;
+    
+}
+#me:hover{
+    font-size: 3.3rex;
+    translate: 5px;
+}
+u{
+    text-decoration-color: rgb(44, 103, 126);
+    
+}
+#college{
+    height: auto;
+    width: 50%;
+}
+#aboutcollege{
+    color: rgb(52, 89, 212);
+    font-size: medium;
+
+}
+#info{
+    transition: all .2s ease-in-out;
+}
+#info:hover{
+    font-size: 3.3rex;
+    background: linear-gradient(90deg, rgba(138,135,204,1) 8%, rgba(174,169,196,1) 29%, rgba(196,136,134,1) 51%);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+#intro{
+    animation: rotate 5s infinite ease-out 0s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotatey(0deg);
+    }
+    
+    100%{
+        transform: rotatey(-360deg);
+    }
+    
+}
+h2{
+    
+    background: linear-gradient(90deg, rgba(60,56,144,1) 8%, rgba(98,128,40,1) 29%, rgba(113,100,41,1) 51%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
